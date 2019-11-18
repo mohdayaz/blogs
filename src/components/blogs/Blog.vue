@@ -1,6 +1,7 @@
 <template>
   <v-container fluid class="pa-0 ml-0 mr-0 body">
     <v-row>
+      <h2>dkjlk;dl;k</h2>
       <v-col md="12" class="blog-detail">
         <div class="blog-detail__title-body">
           <h3 class="blog-detail__postby-title">{{ blog.postedby }}</h3>

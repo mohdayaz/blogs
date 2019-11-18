@@ -9,7 +9,7 @@
         <img class="blog-card__image" :src="blog.image" />
         <div class="blog-card__title-body">
           <router-link :to="`/blogs/${blog.id}`">
-            <h2 class="blog-card__title">{{ blog.title }}</h2>
+            <h2 class="blog-card__title">{{ blog.title.substring(0, 160) + "...."  }}</h2>
             <p class="blog-card__description">
               {{ blog.Description.substring(0, 240) + "...." }}
             </p>

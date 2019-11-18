@@ -12,7 +12,7 @@ const routes = [
     component: Landing
   },
   {
-    path: "/blog/:id",
+    path: "/blogs/:id",
     component: Blog
   }
 ];

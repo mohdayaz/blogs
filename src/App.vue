@@ -1,21 +1,15 @@
 <template>
   <v-app>
-
-    <v-content>
-      <Landing/>
-    </v-content>
+    <router-view></router-view>
   </v-app>
 </template>
 
 <script>
-import Landing from './components/bloglist/Landing';
+
 
 export default {
   name: 'App',
 
-  components: {
-    Landing,
-  },
 
   data: () => ({
     //
